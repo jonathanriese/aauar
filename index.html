@@ -30,6 +30,7 @@
     <a-assets>
       <!-- Credit to Poly by Google for the model: https://poly.google.com/view/dA5osnS0Rzj -->
       <a-asset-item id="jelly-glb" src="jellyfish-model.glb"></a-asset-item>
+      <a-asset-item id="whale-glb" src="whale.glb"></a-asset-item>
       <img id="jelly-thumb" src="targets/video-target.jpg">
       <video
         id="jelly-video"
@@ -67,7 +68,7 @@
     <!-- Note: "name:" must be set to the name of the image target uploaded to the 8th Wall Console -->
     <a-entity xrextras-named-image-target="name: humpback-1">
       <!-- Add a child entity that can be rotated independently of the image target. -->
-      <a-entity xrextras-one-finger-rotate gltf-model="#jelly-glb"></a-entity>
+      <a-entity xrextras-one-finger-rotate gltf-model="#whale-glb"></a-entity>
     </a-entity>
 
   </a-scene>
